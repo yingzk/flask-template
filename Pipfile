@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+
+[dev-packages]
+gunicorn = "*"
+
+[packages]
+flask = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+pymysql = "*"
+flask-migrate = "*"
+
+[requires]
+python_version = "3.10"

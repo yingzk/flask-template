@@ -1,0 +1,10 @@
+.idea/*
+__pycache__/*
+migrations/*
+templates/static/*
+templates/*
+logs/*
+
+*.pyc
+*.log
+*.lock
